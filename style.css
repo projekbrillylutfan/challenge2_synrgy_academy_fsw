@@ -1,0 +1,210 @@
+/* Untuk perangkat dengan lebar layar kurang dari 576px (misalnya, ponsel) */
+@media (max-width: 575.98px) {
+  /* Aturan CSS untuk perangkat ponsel di sini */
+  header {
+    background-color: #f1f3ff;
+    flex-shrink: 0;
+    grid-column: auto;
+  }
+  .grid-h-col2 {
+    order: 1;
+    margin-top: 24px;
+    /* margin-right: 10px; */
+  }
+
+  .sewa-rental {
+    align-self: stretch;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 54px */
+  }
+
+  .desk {
+    align-self: stretch;
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .best-rental {
+    margin-top: 57px;
+  }
+
+  .image-service {
+    width: 15.75rem;
+    height: 14.25rem;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+
+  .why-h3 {
+    width: 20.5rem;
+    color: #000;
+    /* text-align: center; */
+
+    /* Heading/24/Bold */
+    font-family: Helvetica;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.25rem; /* 150% */
+  }
+
+  .p-p {
+    width: 20.5rem;
+    color: #000;
+    /* text-align: center; */
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.25rem; /* 142.857% */
+  }
+
+  .card {
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    border: 1px solid var(--neutral-02, #d0d0d0);
+    width: 20.5rem;
+    height: 11rem;
+  }
+
+  .card-text {
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.25rem; /* 142.857% */
+    align-self: stretch;
+    width: 17.5rem;
+    height: 2.5rem;
+    text-align: justify;
+  }
+
+  .flex-testi {
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    gap: 2rem;
+    background-color: #0d28a6;
+    color: white;
+  }
+  .cta-heading,
+  .cta-body {
+    width: 13.25rem;
+  }
+  .btn-sewa {
+    border-radius: 0.125rem;
+    background: var(--primary-lime-green-04, #5cb85f);
+  }
+
+  .col1-faq{
+    display: block;
+  }
+
+  .grid-faq {
+    margin-top: 3.75rem;
+  }
+
+  .logo-footer {
+    width: 100px;
+    height: 34px;
+    flex-shrink: 0;
+    background: #0d28a6;
+  }
+
+  .footer-sewa {
+    margin-top: 3.75rem;
+  }
+  .col-logo-footer {
+    margin-bottom: 3.75rem;
+  }
+}
+
+/* Untuk perangkat dengan lebar layar antara 576px hingga 767px (misalnya, ponsel besar atau tablet kecil dalam orientasi potrait) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Aturan CSS untuk perangkat ponsel besar atau tablet kecil di sini */
+}
+
+/* Untuk perangkat dengan lebar layar antara 768px hingga 991px (misalnya, tablet dalam orientasi lanskap) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Aturan CSS untuk tablet dalam orientasi lanskap di sini */
+}
+
+/* Untuk perangkat dengan lebar layar antara 992px hingga 1199px (misalnya, tablet dalam orientasi potrait atau laptop) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Aturan CSS untuk tablet dalam orientasi potrait atau laptop di sini */
+}
+
+/* Untuk perangkat dengan lebar layar 1200px atau lebih (misalnya, layar desktop) */
+@media (min-width: 1200px) {
+  /* Aturan CSS untuk layar desktop di sini */
+  /* body {
+    background-color: blue;
+  } */
+
+  header {
+    background-color: #f1f3ff;
+    flex-shrink: 0;
+    grid-column: auto;
+  }
+}
+
+.card {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+
+  border-radius: 0.5rem;
+  border: 1px solid var(--neutral-02, #d0d0d0);
+}
+
+.card-title {
+  color: #000;
+
+  /* Title/16/Bold */
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 150% */
+}
+
+.card-body {
+  width: 13.75rem;
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem; /* 142.857% */
+  padding: 0 !important;
+}
