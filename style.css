@@ -85,6 +85,64 @@
     width: 20.5rem;
     height: 11rem;
   }
+
+  .card-text {
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.25rem; /* 142.857% */
+    align-self: stretch;
+    width: 17.5rem;
+    height: 2.5rem;
+    text-align: justify;
+  }
+
+  .flex-testi {
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    gap: 2rem;
+    background-color: #0d28a6;
+    color: white;
+  }
+  .cta-heading,
+  .cta-body {
+    width: 13.25rem;
+  }
+  .btn-sewa {
+    border-radius: 0.125rem;
+    background: var(--primary-lime-green-04, #5cb85f);
+  }
+
+  .col1-faq{
+    display: block;
+  }
+
+  .grid-faq {
+    margin-top: 3.75rem;
+  }
+
+  .logo-footer {
+    width: 100px;
+    height: 34px;
+    flex-shrink: 0;
+    background: #0d28a6;
+  }
+
+  .footer-sewa {
+    margin-top: 3.75rem;
+  }
+  .col-logo-footer {
+    margin-bottom: 3.75rem;
+  }
 }
 
 /* Untuk perangkat dengan lebar layar antara 576px hingga 767px (misalnya, ponsel besar atau tablet kecil dalam orientasi potrait) */
@@ -108,6 +166,12 @@
   /* body {
     background-color: blue;
   } */
+
+  header {
+    background-color: #f1f3ff;
+    flex-shrink: 0;
+    grid-column: auto;
+  }
 }
 
 .card {
