@@ -37,6 +37,54 @@
   .best-rental {
     margin-top: 57px;
   }
+
+  .image-service {
+    width: 15.75rem;
+    height: 14.25rem;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+
+  .why-h3 {
+    width: 20.5rem;
+    color: #000;
+    /* text-align: center; */
+
+    /* Heading/24/Bold */
+    font-family: Helvetica;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.25rem; /* 150% */
+  }
+
+  .p-p {
+    width: 20.5rem;
+    color: #000;
+    /* text-align: center; */
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.25rem; /* 142.857% */
+  }
+
+  .card {
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    border: 1px solid var(--neutral-02, #d0d0d0);
+    width: 20.5rem;
+    height: 11rem;
+  }
 }
 
 /* Untuk perangkat dengan lebar layar antara 576px hingga 767px (misalnya, ponsel besar atau tablet kecil dalam orientasi potrait) */
@@ -57,7 +105,42 @@
 /* Untuk perangkat dengan lebar layar 1200px atau lebih (misalnya, layar desktop) */
 @media (min-width: 1200px) {
   /* Aturan CSS untuk layar desktop di sini */
-  body {
+  /* body {
     background-color: blue;
-  }
+  } */
+}
+
+.card {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+
+  border-radius: 0.5rem;
+  border: 1px solid var(--neutral-02, #d0d0d0);
+}
+
+.card-title {
+  color: #000;
+
+  /* Title/16/Bold */
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 150% */
+}
+
+.card-body {
+  width: 13.75rem;
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem; /* 142.857% */
+  padding: 0 !important;
 }
